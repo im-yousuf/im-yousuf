@@ -1,17 +1,19 @@
 <h1 align="center">Hi 👋, I'm Yousuf</h1>
-<h3 align="center">A Computer Science Student From India</h3>
+<h3 align="center"><b>A Computer Science Student From India</b></h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=im-yousuf&label=Profile%20views&color=0e75b6&style=flat" alt="im-yousuf" /> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=im-yousuf&label=Profile%20views&color=0e75b6&style=flat" alt="im-yousuf" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=im-yousuf" alt="im-yousuf" /></a> </p>
+<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=im-yousuf" alt="im-yousuf" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
+<p align="center"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 🌱 I’m currently learning **Python and C**
 
-- 💬 Ask me about **Web development,Pyhton,C**
-
-- ⚡ Fun fact **I Think I am Funny**
+- 🌱 I’m currently learning **Python** and aiming to dive into **Data Science**
+- 🎓 Planning to specialize in **Data Science**
+- 💻 I have experience in **Front End Web Development** and **C language**
+- 👯 I’m looking to collaborate on **Open Source Projects**
+- 💬 Ask me about **Web Development, Python, C language**
+- ⚡ Fun fact: I enjoy playing chess and exploring new technologies
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -26,3 +28,6 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=im-yousuf&show_icons=true&locale=en" alt="im-yousuf" /></p>
 
+<div align="right">
+  <img height="200" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnFoa2pld3lwYzUyaDNpdjJhcmt3enN0cDBucXlsdjZ4dTEzcDUybSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5k5vZwRFZR5aZeniqb/giphy.gif"  />
+</div>

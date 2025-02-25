@@ -6,24 +6,13 @@
 </p>
 
 
-<p align="center"> 
+
 - 🌱 I’m currently learning **Python** and aiming to dive into **Data Science**
-</p>
-<p align="center"> 
-- 💻 I have experience in **Front End Web Development** and **C language** 
-</p>
-<p align="center"> 
-- ⚡ Fun fact: I enjoy playing chess and exploring new technologies  
-</p>
-<p align="center"> 
+- 🎓 Planning to specialize in **Data Science**
 - 💬 Ask me about **Web Development, Python, C language** 
-</p>
-<p align="center"> 
+- 💻 I have experience in **Front End Web Development** and **C language** 
 - 👯 I’m looking to collaborate on **Open Source Projects**  
-</p>
-<p align="center"> 
-- 🎓 Planning to specialize in **Data Science**  
-</p>
+- ⚡ Fun fact: I enjoy playing chess and exploring new technologies  
 
 ---
 

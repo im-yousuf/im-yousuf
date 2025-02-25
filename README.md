@@ -25,35 +25,6 @@
 - 🎓 Planning to specialize in **Data Science**  
 </p>
 
-
-
----
-
-### 📊 GitHub Stats  
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=im-yousuf&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-</p>
-<p  align="center"><a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=im-yousuf&theme=tokyonight" alt="GitHub Streak" /></a></p>
-
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=im-yousuf&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="Top Languages" />
-</p>
-
----
-
-### 🏆 GitHub Achievements  
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=im-yousuf&theme=algolia&no-frame=false&no-bg=false&margin-w=4" alt="Trophies" />
-</p>
-
----
-
-### 🚀 GitHub Activity Graph  
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=im-yousuf&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
-</p>
-
 ---
 
 ### 🌐 Connect with me:  
@@ -92,3 +63,32 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
   </a> 
 </p>
+
+
+---
+
+### 📊 GitHub Stats  
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=im-yousuf&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+</p>
+<p  align="center"><a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=im-yousuf&theme=tokyonight" alt="GitHub Streak" /></a></p>
+
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=im-yousuf&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="Top Languages" />
+</p>
+
+---
+
+### 🏆 GitHub Achievements  
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=im-yousuf&theme=algolia&no-frame=false&no-bg=false&margin-w=4" alt="Trophies" />
+</p>
+
+---
+
+### 🚀 GitHub Activity Graph  
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=im-yousuf&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
+</p>
+

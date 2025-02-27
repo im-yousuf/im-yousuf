@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Yousuf</h1>
-<h3 align="center"><b>A Computer Science Student From India</b></h3>
+<h3 align="center"><b>A Computer Science Student From India</b></h3> 
 
 <p align="center"> 
   <img src="https://komarev.com/ghpvc/?username=im-yousuf&label=Profile%20views&color=0e75b6&style=flat" alt="im-yousuf" /> 

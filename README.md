@@ -6,7 +6,7 @@
 
  
 
-- 🌱 I’m currently learning **Python** and aiming to dive into **Data Science**
+- 🌱 I’m currently learning **Python** and aiming to dive into **Data Science** 
 - 🎓 Planning to specialize in **Data Science**
 - 💬 Ask me about **Web Development, Python, C language** 
 - 💻 I have experience in **Front End Web Development** and **C language** 

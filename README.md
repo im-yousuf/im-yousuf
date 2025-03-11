@@ -60,6 +60,9 @@
 ### 📊 GitHub Stats  
 
 ![im-yousuf's Stats](https://github-readme-stats.vercel.app/api?username=im-yousuf&theme=highcontrast&show_icons=true&hide_border=false&count_private=true)
+
+![](https://nirzak-streak-stats.vercel.app/?user=im-yousuf&theme=highcontrast&hide_border=true)<br/>
+
 ---
 
 ### 🏆 GitHub Achievements  
@@ -68,4 +71,7 @@
 </p>
 
 ---
+
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 

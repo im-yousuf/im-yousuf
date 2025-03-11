@@ -58,13 +58,13 @@
 ---
 
 ### 📊 GitHub Stats  
-<p  align="center"><a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=im-yousuf&theme=tokyonight" alt="GitHub Streak" /></a></p>
 
+![im-yousuf's Stats](https://github-readme-stats.vercel.app/api?username=im-yousuf&theme=highcontrast&show_icons=true&hide_border=false&count_private=true)
 ---
 
 ### 🏆 GitHub Achievements  
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=im-yousuf&theme=algolia&no-frame=false&no-bg=false&margin-w=4" alt="Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=im-yousuf&theme=highcontrast&no-frame=false&no-bg=false&margin-w=4" alt="Trophies" />
 </p>
 
 ---

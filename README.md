@@ -8,51 +8,26 @@
 
 ---
 
-- 🌱 I’m currently learning **Python** and aiming to dive into **Data Science**  
-- 🎓 Planning to specialize in **Data Science**  
-- 💬 Ask me about **Web Development, Python, C language**  
-- 💻 I have experience in **Front End Web Development** and **C language**  
-- 👯 I’m looking to collaborate on **Open Source Projects**  
-- ⚡ Fun fact: I enjoy playing chess and exploring new technologies  
+### 👨‍💻 About Me:
+- 🎓 CSE Student | Code Enthusiast 💻
+- 🌱 Currently learning Python and diving into Data Science
+- 🔍 Exploring **AI, Machine Learning, and Open Source**
+- 💡 Passionate about **problem-solving** and **competitive programming**
+- 🏆 Actively contributing to open-source projects
+- 🎯 My goal: Apply **AI in real-world applications**
+- 📩 Reach me at: [LinkedIn](https://www.linkedin.com/in/https://www.linkedin.com/in/mohammed-yousuf-uddin-6a59982aa/) | [Twitter](https://twitter.com[/your-handle](https://x.com/yousufuddin146))
 
 ---
 
-### 🌐 Connect with me:  
-<p align="left">
-  <a href="https://linkedin.com/in/mohammed-yousuf-uddin-6a59982aa" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
-  </a>
-  <a href="https://instagram.com/m.yousuf321" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40" />
-  </a>
+### ⚡ Tech Stack & Tools:
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Artificial%20Intelligence-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
 </p>
 
----
-
-### ⚙️ Languages and Tools:  
-<p align="left"> 
-  <a href="https://www.cprogramming.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/>
-  </a> 
-  <a href="https://www.w3schools.com/css/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="40" height="40"/>
-  </a> 
-  <a href="https://www.figma.com/" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" width="40" height="40"/>
-  </a> 
-  <a href="https://www.w3.org/html/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="40" height="40"/>
-  </a> 
-  <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="Illustrator" width="40" height="40"/>
-  </a> 
-  <a href="https://www.photoshop.com/en" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="Photoshop" width="40" height="40"/>
-  </a> 
-  <a href="https://www.python.org" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
-  </a> 
-</p>
 
 ---
 

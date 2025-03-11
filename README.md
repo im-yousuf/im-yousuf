@@ -73,12 +73,12 @@
 
 ### 🏆 GitHub Achievements  
 <p>
-  <img src="https://github-profile-trophy.vercel.app/?username=im-yousuf&theme=highcontrast&no-frame=false&no-bg=false&margin-w=10" alt="Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=im-yousuf&theme=highcontrast&no-frame=true&no-bg=false&margin-w=10" alt="Trophies" />
 </p>
 
 ---
 
 ### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&hide_border=true)
 
 ---

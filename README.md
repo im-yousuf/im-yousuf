@@ -63,7 +63,7 @@
 ---
 
 ### 🏆 GitHub Achievements  
-<p align="center">
+<p>
   <img src="https://github-profile-trophy.vercel.app/?username=im-yousuf&theme=highcontrast&no-frame=false&no-bg=false&margin-w=4" alt="Trophies" />
 </p>
 

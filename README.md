@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Yousuf</h1>
+<h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, I'm Yousuf</h1>
 <p align="center">
     <img src="https://readme-typing-svg.demolab.com/?lines=A%20Computer-Science%20Student%20From%20India;Planning%20To%20Specialize%20in%20Data-Science;%20Logic-Driven,%20Creativity-Fueled;Always%20Learning%20New%20Things&font=Fira%20Code&center=true&width=700&height=45&color=00ffb6&vCenter=true&pause=1000&size=25" />
 </p>
@@ -58,9 +58,16 @@
 
 ### 📊 GitHub Stats  
 
-![im-yousuf's Stats](https://github-readme-stats.vercel.app/api?username=im-yousuf&theme=highcontrast&show_icons=true&hide_border=true&count_private=true)
-
-![](https://nirzak-streak-stats.vercel.app/?user=im-yousuf&theme=highcontrast&hide_border=true)<br/>
+<table>
+<tr>
+<td>
+   <img src="https://github-readme-stats.vercel.app/api?username=im-yousuf&theme=highcontrast&show_icons=true&hide_border=true&count_private=true"/>
+</td>
+<td>
+   <img src="https://nirzak-streak-stats.vercel.app/?user=im-yousuf&theme=highcontrast&hide_border=true"/>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -73,3 +80,5 @@
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+---

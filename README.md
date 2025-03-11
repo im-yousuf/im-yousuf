@@ -1,5 +1,7 @@
 <h1 align="center">Hi 👋, I'm Yousuf</h1>
-<h3 align="center"><b>A Computer Science Student From India</b></h3>
+<p align="center">
+    <img src="https://readme-typing-svg.demolab.com/?lines=A%20Computer-Science%20Student%20From%20India;Planning%20To%20Specialize in%20Data-Science;%20Logic-Driven, %20Creativity-Fueled;Always%20Learning%20New%20Things&font=Fira%20Code&center=true&width=700&height=45&color=00ffb6&vCenter=true&pause=1000&size=25" />
+</p>
 <p align="center"> 
   <img src="https://komarev.com/ghpvc/?username=im-yousuf&label=Profile%20views&color=0e75b6&style=flat" alt="im-yousuf" /> 
 </p>

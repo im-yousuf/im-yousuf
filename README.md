@@ -15,7 +15,10 @@
 - 💡 Passionate about **problem-solving** and **competitive programming**
 - 🏆 Actively contributing to open-source projects
 - 🎯 My goal: Apply **AI in real-world applications**
-- 📩 Reach me at: [LinkedIn](https://www.linkedin.com/in/https://www.linkedin.com/in/mohammed-yousuf-uddin-6a59982aa/) | [Twitter](https://twitter.com[/your-handle](https://x.com/yousufuddin146))
+- 📩 Reach Me At:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammed-yousuf-uddin-6a59982aa/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/yousufuddin146)
+
 
 ---
 

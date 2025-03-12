@@ -9,9 +9,9 @@
   <img src="https://img.shields.io/github/followers/im-yousuf?style=social" alt="GitHub Followers" />
 </p>
 
----
 
-## 🚀 About Me
+
+### 🚀 About Me
 - 🎓 **CSE Student | Code Enthusiast** 💻  
 - 🌱 Currently learning **Python, AI & Data Science**  
 - 🔍 Exploring **Machine Learning, Open Source & Competitive Programming**  
@@ -20,7 +20,7 @@
 
 ---
 
-## 🌐 Connect With Me
+### 🌐 Connect With Me
 <p align="center">
   <a href="https://www.linkedin.com/in/mohammed-yousuf-uddin-6a59982aa/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -35,7 +35,7 @@
 
 ---
 
-## ⚡ Tech Stack & Tools
+### ⚡ Tech Stack & Tools
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
@@ -45,7 +45,7 @@
 
 ---
 
-## 📊 GitHub Stats  
+### 📊 GitHub Stats  
 
 <table>
 <tr>
@@ -60,7 +60,7 @@
 
 ---
 
-## 🏆 GitHub Achievements  
+### 🏆 GitHub Achievements  
 <p>
   <img src="https://github-profile-trophy.vercel.app/?username=im-yousuf&theme=highcontrast&no-frame=true&margin-w=10" alt="Trophies" />
 </p>
@@ -68,13 +68,13 @@
 
 ---
 
-## ✍️ Random Dev Quote
+### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&hide_border=true)
 
 ---
 
 
-## 🚀 Fun Fact  
+### 🚀 Fun Fact  
 <p>
   <img src="https://readme-jokes.vercel.app/api?theme=radical" alt="Random Fun Fact" width="500"/>
 </p>

@@ -74,7 +74,7 @@
 ---
 
 
-### 🚀 Fun Fact  
+### 🚀 Just Kidding
 <p>
   <img src="https://readme-jokes.vercel.app/api?theme=radical" alt="Random Fun Fact" width="500"/>
 </p>

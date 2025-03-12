@@ -62,7 +62,7 @@
 
 ## 🏆 GitHub Achievements  
 <p>
-  <img src="https://github-profile-trophy.vercel.app/?username=im-yousuf&theme=algolia&no-frame=true&margin-w=10" alt="Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=im-yousuf&theme=highcontrast&no-frame=true&margin-w=10" alt="Trophies" />
 </p>
 
 

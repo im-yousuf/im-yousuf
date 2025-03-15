@@ -1,5 +1,5 @@
 <h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, I'm Yousuf</h1>
-
+ 
 <p align="center">
     <img src="https://readme-typing-svg.demolab.com/?lines=A%20Computer-Science%20Student%20From%20India;Planning%20To%20Specialize%20in%20Data-Science;%20Logic-Driven,%20Creativity-Fueled;Always%20Learning%20New%20Things&font=Fira%20Code&center=true&width=700&height=45&color=00ffb6&vCenter=true&pause=1000&size=25" />
 </p>

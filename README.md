@@ -11,12 +11,15 @@
 
 
 
-### 🚀 About Me
-- 🎓 **CSE Student | Code Enthusiast** 💻  
-- 🌱 Currently learning **Python, AI & Data Science**  
-- 🔍 Exploring **Machine Learning, Open Source & Competitive Programming**  
-- 💡 Passionate about **problem-solving & innovation**  
-- 🎯 Goal: Apply **AI in real-world applications**  
+### 🧠 About Me
+
+- 🎓 CSE Undergrad | Passionate about **Machine Learning**, **Data Science**, and **Open Source**
+- 📚 Currently learning **Python, C, C++**, and exploring **AI for Real-World Applications**
+- 💡 I love building projects that solve real-life problems
+- 🌱 Exploring **Competitive Programming** to sharpen logical thinking
+- 🎯 **Goal**: Get a fully funded MS in AI from a top global university!
+
+---  
 
 ---
 
@@ -73,10 +76,9 @@
 
 ---
 
+## 🌟 Projects Showcase
 
-### 🚀 Just Kidding
-<p>
-  <img src="https://readme-jokes.vercel.app/api?theme=radical" alt="Random Fun Fact" width="500"/>
-</p>
+> *More coming soon...*
 
----
+
+

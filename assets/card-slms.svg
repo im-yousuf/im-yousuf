@@ -1,1 +1,97 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 262" width="500" height="262" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif"><defs></defs><ellipse cx="250" cy="248" rx="150" ry="6" fill="#000" opacity=".08"><animate attributeName="rx" values="150;125;150" dur="5.800000000000001s" repeatCount="indefinite"/><animate attributeName="opacity" values=".09;.04;.09" dur="5.800000000000001s" repeatCount="indefinite"/></ellipse><g><rect x="10" y="22" width="480" height="206" rx="24" fill="#ffffff" stroke="#111111" stroke-width="2.5"/><text x="36" y="58" font-size="13" font-weight="700" fill="#111111">In progress</text><text x="36" y="96" font-size="30" font-weight="800" fill="#111111">Library System</text><text x="36" y="126" font-size="14.5" fill="#5b6070">Offline library manager for schools.</text><text x="36" y="148" font-size="14.5" fill="#5b6070">18 modules, no server needed.</text><rect x="36" y="176" width="66" height="24" rx="12" fill="#111111" opacity=".1"/><text x="69" y="192" text-anchor="middle" font-size="12" font-weight="700" fill="#111111">JavaFX</text><rect x="110" y="176" width="66" height="24" rx="12" fill="#111111" opacity=".1"/><text x="144" y="192" text-anchor="middle" font-size="12" font-weight="700" fill="#111111">SQLite</text><rect x="185" y="176" width="59" height="24" rx="12" fill="#111111" opacity=".1"/><text x="214" y="192" text-anchor="middle" font-size="12" font-weight="700" fill="#111111">Maven</text><g><rect x="360" y="38" width="96" height="22" rx="4" fill="#2563EB"/><rect x="370" y="44" width="66" height="3" rx="1.5" fill="#fff" opacity=".6"/><animateTransform attributeName="transform" type="translate" values="0 0;14 0;0 0" dur="3.0s" repeatCount="indefinite"/></g><g><rect x="360" y="74" width="80" height="22" rx="4" fill="#EF4444"/><rect x="370" y="80" width="50" height="3" rx="1.5" fill="#fff" opacity=".6"/><animateTransform attributeName="transform" type="translate" values="0 0;-10 0;0 0" dur="3.5s" repeatCount="indefinite"/></g><g><rect x="360" y="110" width="104" height="22" rx="4" fill="#111111"/><rect x="370" y="116" width="74" height="3" rx="1.5" fill="#fff" opacity=".6"/><animateTransform attributeName="transform" type="translate" values="0 0;14 0;0 0" dur="4.0s" repeatCount="indefinite"/></g><g><rect x="360" y="142" width="88" height="22" rx="4" fill="#2563EB"/><rect x="370" y="148" width="58" height="3" rx="1.5" fill="#fff" opacity=".6"/><animateTransform attributeName="transform" type="translate" values="0 0;-10 0;0 0" dur="4.5s" repeatCount="indefinite"/></g><animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="5.800000000000001s" begin="-2.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 262" width="500" height="262">
+  <defs>
+    <linearGradient id="cardBg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c16" />
+      <stop offset="50%" stop-color="#121829" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <filter id="neon4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; }
+    .font-mono { font-family: 'Fira Code', 'Courier New', monospace; }
+  </style>
+
+  <ellipse cx="250" cy="250" rx="160" ry="7" fill="#000" opacity="0.4">
+    <animate attributeName="rx" values="160;130;160" dur="5.8s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.4;0.2;0.4" dur="5.8s" repeatCount="indefinite" />
+  </ellipse>
+
+  <g>
+    <rect x="10" y="20" width="480" height="210" rx="20" fill="url(#cardBg4)" stroke="#A855F7" stroke-width="2" />
+
+    <!-- Status Tag -->
+    <rect x="36" y="44" width="132" height="22" rx="11" fill="#A855F7" fill-opacity="0.15" stroke="#A855F7" stroke-width="1" />
+    <circle cx="48" cy="55" r="4" fill="#A855F7">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+    <text x="58" y="59" class="font-sans" font-size="10.5" font-weight="700" fill="#C084FC">DESKTOP SYSTEM</text>
+
+    <!-- Title -->
+    <text x="36" y="96" class="font-sans" font-size="25" font-weight="900" fill="#F8FAFC">Library Core</text>
+
+    <!-- Description -->
+    <text x="36" y="124" class="font-sans" font-size="13.5" fill="#94A3B8">Offline architecture with BCrypt security,</text>
+    <text x="36" y="144" class="font-sans" font-size="13.5" fill="#94A3B8">fine automation &amp; dynamic reporting.</text>
+
+    <!-- Tech Tags -->
+    <g transform="translate(36, 172)">
+      <rect x="0" y="0" width="66" height="24" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="33" y="16" text-anchor="middle" class="font-mono" font-size="11" font-weight="700" fill="#FB923C">JavaFX</text>
+
+      <rect x="72" y="0" width="62" height="24" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="103" y="16" text-anchor="middle" class="font-mono" font-size="11" font-weight="700" fill="#38BDF8">SQLite</text>
+
+      <rect x="140" y="0" width="64" height="24" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="172" y="16" text-anchor="middle" class="font-mono" font-size="11" font-weight="700" fill="#34D399">BCrypt</text>
+
+      <rect x="210" y="0" width="62" height="24" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="241" y="16" text-anchor="middle" class="font-mono" font-size="11" font-weight="700" fill="#C084FC">Maven</text>
+    </g>
+
+    <!-- Right Side Sliding Database Records -->
+    <g transform="translate(350, 45)">
+      <!-- Record 1 -->
+      <g>
+        <rect x="0" y="10" width="104" height="22" rx="5" fill="#0f172a" stroke="#38BDF8" stroke-width="1.2" />
+        <line x1="12" y1="21" x2="68" y2="21" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" />
+        <circle cx="86" cy="21" r="3" fill="#38BDF8" />
+        <animateTransform attributeName="transform" type="translate" values="0 0; 12 0; 0 0" dur="3.0s" repeatCount="indefinite" />
+      </g>
+
+      <!-- Record 2 -->
+      <g>
+        <rect x="12" y="44" width="92" height="22" rx="5" fill="#0f172a" stroke="#A855F7" stroke-width="1.2" />
+        <line x1="24" y1="55" x2="72" y2="55" stroke="#A855F7" stroke-width="2.5" stroke-linecap="round" />
+        <circle cx="88" cy="55" r="3" fill="#A855F7" />
+        <animateTransform attributeName="transform" type="translate" values="0 0; -8 0; 0 0" dur="3.5s" repeatCount="indefinite" />
+      </g>
+
+      <!-- Record 3 -->
+      <g>
+        <rect x="4" y="78" width="100" height="22" rx="5" fill="#0f172a" stroke="#34D399" stroke-width="1.2" />
+        <line x1="16" y1="89" x2="66" y2="89" stroke="#34D399" stroke-width="2.5" stroke-linecap="round" />
+        <circle cx="84" cy="89" r="3" fill="#34D399" />
+        <animateTransform attributeName="transform" type="translate" values="0 0; 10 0; 0 0" dur="4.0s" repeatCount="indefinite" />
+      </g>
+
+      <!-- Record 4 -->
+      <g>
+        <rect x="16" y="112" width="88" height="22" rx="5" fill="#0f172a" stroke="#FBBF24" stroke-width="1.2" />
+        <line x1="28" y1="123" x2="76" y2="123" stroke="#FBBF24" stroke-width="2.5" stroke-linecap="round" />
+        <circle cx="90" cy="123" r="3" fill="#FBBF24" />
+        <animateTransform attributeName="transform" type="translate" values="0 0; -10 0; 0 0" dur="4.5s" repeatCount="indefinite" />
+      </g>
+    </g>
+
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -9; 0 0" dur="5.8s" begin="-2.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1" />
+  </g>
+</svg>

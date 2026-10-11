@@ -56,7 +56,7 @@
     </g>
   </g>
 
-  <!-- 2. Technical Head (Datanauts Club) -->
+  <!-- 2. Blind Coding Winner -->
   <g transform="translate(0, 0)">
     <g>
       <circle cx="295" cy="145" r="80" fill="#0f172a" stroke="#A855F7" stroke-width="2.5" filter="url(#neonGlow)" />
@@ -66,9 +66,9 @@
       <circle cx="295" cy="58" r="5" fill="#C084FC" filter="url(#neonGlow)">
         <animateTransform attributeName="transform" type="rotate" from="0 295 145" to="-360 295 145" dur="10s" repeatCount="indefinite" />
       </circle>
-      <text x="295" y="135" text-anchor="middle" class="font-sans" font-size="15.5" font-weight="800" fill="#ffffff">Technical Head</text>
-      <text x="295" y="156" text-anchor="middle" class="font-sans" font-size="13" font-weight="700" fill="#C084FC">Datanauts Club</text>
-      <text x="295" y="174" text-anchor="middle" class="font-mono" font-size="10.5" fill="#94A3B8">Lead Tech Ops</text>
+      <text x="295" y="135" text-anchor="middle" class="font-sans" font-size="15.5" font-weight="800" fill="#ffffff">Blind Coding</text>
+      <text x="295" y="156" text-anchor="middle" class="font-sans" font-size="13" font-weight="700" fill="#C084FC">Prize Winner</text>
+      <text x="295" y="174" text-anchor="middle" class="font-mono" font-size="10.5" fill="#94A3B8">Inter-College</text>
       <animateTransform attributeName="transform" type="translate" values="0 0; 0 -14; 0 0" dur="5.0s" begin="-1.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1" />
     </g>
   </g>

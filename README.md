@@ -7,7 +7,7 @@
 
 <!-- REAL-TIME TYPING TELEMETRY -->
 <a href="https://github.com/im-yousuf">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00F0FF&center=true&vCenter=true&random=false&width=750&lines=%E2%9A%A1+B.Tech+CSE+Data+Science+(2024-2028)+%40+Sphoorthy;%F0%9F%A7%A0+Building+Scalable+GenAI+%26+Predictive+Pipelines;%F0%9F%9A%80+GeeksforGeeks+Campus+Ambassador+%7C+Tech+Mentor;%E2%9C%A8+Technical+Head+%40+Datanauts+Club;%E2%98%81%EF%B8%8F+AWS+Cloud+Foundations+Intern+(AICTE);%F0%9F%92%BB+Smart+India+Hackathon+(2025%2C+2026)+Participant" alt="Typing Telemetry" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00F0FF&center=true&vCenter=true&random=false&width=750&lines=%E2%9A%A1+B.Tech+CSE+Data+Science+(2024-2028)+%40+Sphoorthy;%F0%9F%A7%A0+Building+Scalable+GenAI+%26+Predictive+Pipelines;%F0%9F%9A%80+GeeksforGeeks+Campus+Ambassador+%7C+Tech+Mentor;%F0%9F%A7%A9+Inter-College+Blind+Coding+Prize+Winner;%E2%98%81%EF%B8%8F+AWS+Cloud+Foundations+Intern+(AICTE);%F0%9F%92%BB+Smart+India+Hackathon+(2025%2C+2026)+Participant" alt="Typing Telemetry" />
 </a>
 
 <br/><br/>
@@ -33,7 +33,7 @@
   <img src="https://img.shields.io/badge/Degree-B.Tech%20Data%20Science%20(2024--2028)-6366F1?style=flat-square&logo=academia&logoColor=white" />
   <img src="https://img.shields.io/badge/CGPA-8.04%20%2F%2010-38BDF8?style=flat-square" />
   <img src="https://img.shields.io/badge/Campus%20Ambassador-GeeksforGeeks-2F8D46?style=flat-square&logo=geeksforgeeks&logoColor=white" />
-  <img src="https://img.shields.io/badge/Technical%20Head-Datanauts%20Club-A855F7?style=flat-square" />
+  <img src="https://img.shields.io/badge/Blind%20Coding-Prize%20Winner-A855F7?style=flat-square" />
   <img src="https://img.shields.io/badge/AWS-Cloud%20Foundations-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" />
   <img src="https://img.shields.io/badge/Location-Hyderabad%2C%20India-EF4444?style=flat-square&logo=google-maps&logoColor=white" />
 </p>
@@ -126,10 +126,7 @@
    Role: Campus Ambassador | Hyderabad, India
    ▸ Spearheaded technical initiatives, coding competitions, and hack workshops across campus.
    ▸ Fostered a thriving developer culture in Data Structures, Algorithms, & System Design.
-
-⚡ Datanauts Club                                                 [2025 – Present]
-   Role: Technical Head | Sphoorthy Engineering College
-   ▸ Directing core technical operations, organizing tech hackathons, and mentoring junior cohorts.
+   ▸ Acted as primary liaison between student developers and GeeksforGeeks technical network.
 
 ☁️ Amazon Web Services (AWS) via AICTE                            [Oct 2025 – Nov 2025]
    Role: Cloud Foundations Virtual Intern | Remote

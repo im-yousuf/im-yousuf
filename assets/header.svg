@@ -163,10 +163,10 @@
       <text x="14" y="21" class="mono-text" font-size="11.5" font-weight="600" fill="#34D399">🚀 GfG Ambassador</text>
     </g>
 
-    <!-- Pill 3: Tech Head -->
+    <!-- Pill 3: Achievement -->
     <g transform="translate(404, 0)">
       <rect x="0" y="0" width="184" height="34" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1.2" />
-      <text x="14" y="21" class="mono-text" font-size="11.5" font-weight="600" fill="#C084FC">⚡ Datanauts Lead</text>
+      <text x="14" y="21" class="mono-text" font-size="11.5" font-weight="600" fill="#C084FC">🏆 Blind Coding Win</text>
     </g>
 
     <!-- Pill 4: Cloud -->

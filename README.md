@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- CYBER NEON HEADER BANNER -->
-<img src="assets/header.svg" width="100%" alt="Mohammed Yousuf Uddin - Cyber Header" />
+<img src="assets/header-cyber.svg" width="100%" alt="Mohammed Yousuf Uddin - Cyber Header" />
 
 <br/>
 
@@ -57,7 +57,7 @@
 </p>
 
 <div align="center">
-  <img src="assets/about.svg" width="100%" alt="Who's Floating Around Me" />
+  <img src="assets/about-cyber.svg" width="100%" alt="Who's Floating Around Me" />
 </div>
 
 ---
@@ -73,19 +73,19 @@
     </td>
     <td align="center" width="50%">
       <a href="https://cyberarena-1.vercel.app" target="_blank">
-        <img src="assets/card-cyberarena.svg" alt="Cyber-Arena Platform" width="100%" />
+        <img src="assets/card-cyberarena-cyber.svg" alt="Cyber-Arena Platform" width="100%" />
       </a>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
       <a href="https://github.com/im-yousuf?tab=repositories">
-        <img src="assets/card-mandisetu.svg" alt="MandiSetu SIH 2026" width="100%" />
+        <img src="assets/card-mandisetu-cyber.svg" alt="MandiSetu SIH 2026" width="100%" />
       </a>
     </td>
     <td align="center" width="50%">
       <a href="https://github.com/im-yousuf?tab=repositories">
-        <img src="assets/card-slms.svg" alt="Library Core System" width="100%" />
+        <img src="assets/card-slms-cyber.svg" alt="Library Core System" width="100%" />
       </a>
     </td>
   </tr>
@@ -100,7 +100,7 @@
 </p>
 
 <div align="center">
-  <img src="assets/orbit.svg" width="100%" alt="Gravitational Tech Reactor" />
+  <img src="assets/orbit-cyber.svg" width="100%" alt="Gravitational Tech Reactor" />
 </div>
 
 <br/>
@@ -204,7 +204,7 @@ Whether you're looking to build an AI/ML application, collaborate on an open-sou
 <br/><br/>
 
 <!-- ANIMATED CYBER FOOTER -->
-<img src="assets/footer.svg" width="100%" alt="Cyberpunk Wave Footer" />
+<img src="assets/footer-cyber.svg" width="100%" alt="Cyberpunk Wave Footer" />
 
 <p align="center">
   <i>⚡ Engineered with passion, precision &amp; pixels by <b>Mohammed Yousuf Uddin</b> ⚡</i>

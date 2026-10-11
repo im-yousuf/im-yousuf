@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 262" width="500" height="262">
+  <defs>
+    <linearGradient id="cardBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c16" />
+      <stop offset="50%" stop-color="#0e172a" />
+      <stop offset="100%" stop-color="#060912" />
+    </linearGradient>
+
+    <filter id="neon2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; }
+    .font-mono { font-family: 'Fira Code', 'Courier New', monospace; }
+  </style>
+
+  <ellipse cx="250" cy="250" rx="160" ry="7" fill="#000" opacity="0.4">
+    <animate attributeName="rx" values="160;130;160" dur="5.1s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.4;0.2;0.4" dur="5.1s" repeatCount="indefinite" />
+  </ellipse>
+
+  <g>
+    <rect x="10" y="20" width="480" height="210" rx="20" fill="url(#cardBg2)" stroke="#38BDF8" stroke-width="2" />
+
+    <!-- Status Tag -->
+    <rect x="36" y="44" width="88" height="22" rx="11" fill="#38BDF8" fill-opacity="0.15" stroke="#38BDF8" stroke-width="1" />
+    <circle cx="48" cy="55" r="4" fill="#38BDF8">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+    <text x="58" y="59" class="font-sans" font-size="11" font-weight="700" fill="#38BDF8">LIVE APP</text>
+
+    <!-- Title -->
+    <text x="36" y="96" class="font-sans" font-size="25" font-weight="900" fill="#F8FAFC">Cyber-Arena</text>
+
+    <!-- Description -->
+    <text x="36" y="124" class="font-sans" font-size="13.5" fill="#94A3B8">Interactive cybersecurity sandbox platform.</text>
+    <text x="36" y="144" class="font-sans" font-size="13.5" fill="#94A3B8">Hands-on exploits &amp; defensive modules.</text>
+
+    <!-- Tech Tags -->
+    <g transform="translate(36, 172)">
+      <rect x="0" y="0" width="56" height="24" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="28" y="16" text-anchor="middle" class="font-mono" font-size="11" font-weight="700" fill="#38BDF8">React</text>
+
+      <rect x="62" y="0" width="48" height="24" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="86" y="16" text-anchor="middle" class="font-mono" font-size="11" font-weight="700" fill="#C084FC">Vite</text>
+
+      <rect x="116" y="0" width="76" height="24" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="154" y="16" text-anchor="middle" class="font-mono" font-size="11" font-weight="700" fill="#34D399">Supabase</text>
+
+      <rect x="198" y="0" width="56" height="24" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="226" y="16" text-anchor="middle" class="font-mono" font-size="11" font-weight="700" fill="#F87171">Vercel</text>
+    </g>
+
+    <!-- Right Side Cyber Shield & Laser -->
+    <g transform="translate(385, 80)">
+      <!-- Cyber Shield -->
+      <path d="M 0,-40 L 40,-25 V 10 C 40,36 18,54 0,66 C -18,54 -40,36 -40,10 V -25 Z" fill="#0f172a" stroke="#38BDF8" stroke-width="2.5" filter="url(#neon2)" />
+      
+      <!-- Terminal Prompt Symbol Inside Shield -->
+      <text x="-16" y="14" class="font-mono" font-size="28" font-weight="800" fill="#38BDF8">&gt;</text>
+      <rect x="3" y="-3" width="12" height="4" rx="2" fill="#F43F5E">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+      </rect>
+
+      <!-- Scanning Laser Line Across Shield -->
+      <line x1="-32" y1="-20" x2="32" y2="-20" stroke="#F43F5E" stroke-width="2" opacity="0.8">
+        <animate attributeName="y1" values="-20;45;-20" dur="2.8s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="-20;45;-20" dur="2.8s" repeatCount="indefinite" />
+      </line>
+    </g>
+
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -9; 0 0" dur="5.1s" begin="-1.1s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1" />
+  </g>
+</svg>

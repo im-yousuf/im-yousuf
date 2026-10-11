@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 262" width="500" height="262">
+  <defs>
+    <linearGradient id="cardBgL4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#F1F5F9" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-sans { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; }
+    .font-mono { font-family: 'Fira Code', 'Courier New', monospace; }
+  </style>
+
+  <ellipse cx="250" cy="250" rx="160" ry="7" fill="#000" opacity="0.08">
+    <animate attributeName="rx" values="160;130;160" dur="5.8s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.08;0.04;0.08" dur="5.8s" repeatCount="indefinite" />
+  </ellipse>
+
+  <g>
+    <rect x="10" y="20" width="480" height="210" rx="20" fill="url(#cardBgL4)" stroke="#7C3AED" stroke-width="2" />
+
+    <rect x="36" y="44" width="132" height="22" rx="11" fill="#F3E8FF" stroke="#7C3AED" stroke-width="1" />
+    <circle cx="48" cy="55" r="4" fill="#7C3AED">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+    <text x="58" y="59" class="font-sans" font-size="10.5" font-weight="700" fill="#6D28D9">DESKTOP SYSTEM</text>
+
+    <text x="36" y="96" class="font-sans" font-size="25" font-weight="900" fill="#0F172A">Library Core</text>
+
+    <text x="36" y="124" class="font-sans" font-size="13.5" fill="#475569">Offline architecture with BCrypt security,</text>
+    <text x="36" y="144" class="font-sans" font-size="13.5" fill="#475569">fine automation &amp; dynamic reporting.</text>
+
+    <g transform="translate(36, 172)">
+      <rect x="0" y="0" width="66" height="24" rx="12" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1" />
+      <text x="33" y="16" text-anchor="middle" class="font-mono" font-size="11" font-weight="700" fill="#EA580C">JavaFX</text>
+
+      <rect x="72" y="0" width="62" height="24" rx="12" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1" />
+      <text x="103" y="16" text-anchor="middle" class="font-mono" font-size="11" font-weight="700" fill="#0284C7">SQLite</text>
+
+      <rect x="140" y="0" width="64" height="24" rx="12" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1" />
+      <text x="172" y="16" text-anchor="middle" class="font-mono" font-size="11" font-weight="700" fill="#059669">BCrypt</text>
+
+      <rect x="210" y="0" width="62" height="24" rx="12" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1" />
+      <text x="241" y="16" text-anchor="middle" class="font-mono" font-size="11" font-weight="700" fill="#7C3AED">Maven</text>
+    </g>
+
+    <g transform="translate(350, 45)">
+      <g>
+        <rect x="0" y="10" width="104" height="22" rx="5" fill="#F1F5F9" stroke="#0284C7" stroke-width="1.2" />
+        <line x1="12" y1="21" x2="68" y2="21" stroke="#0284C7" stroke-width="2.5" stroke-linecap="round" />
+        <circle cx="86" cy="21" r="3" fill="#0284C7" />
+        <animateTransform attributeName="transform" type="translate" values="0 0; 12 0; 0 0" dur="3.0s" repeatCount="indefinite" />
+      </g>
+
+      <g>
+        <rect x="12" y="44" width="92" height="22" rx="5" fill="#F1F5F9" stroke="#7C3AED" stroke-width="1.2" />
+        <line x1="24" y1="55" x2="72" y2="55" stroke="#7C3AED" stroke-width="2.5" stroke-linecap="round" />
+        <circle cx="88" cy="55" r="3" fill="#7C3AED" />
+        <animateTransform attributeName="transform" type="translate" values="0 0; -8 0; 0 0" dur="3.5s" repeatCount="indefinite" />
+      </g>
+
+      <g>
+        <rect x="4" y="78" width="100" height="22" rx="5" fill="#F1F5F9" stroke="#059669" stroke-width="1.2" />
+        <line x1="16" y1="89" x2="66" y2="89" stroke="#059669" stroke-width="2.5" stroke-linecap="round" />
+        <circle cx="84" cy="89" r="3" fill="#059669" />
+        <animateTransform attributeName="transform" type="translate" values="0 0; 10 0; 0 0" dur="4.0s" repeatCount="indefinite" />
+      </g>
+
+      <g>
+        <rect x="16" y="112" width="88" height="22" rx="5" fill="#F1F5F9" stroke="#D97706" stroke-width="1.2" />
+        <line x1="28" y1="123" x2="76" y2="123" stroke="#D97706" stroke-width="2.5" stroke-linecap="round" />
+        <circle cx="90" cy="123" r="3" fill="#D97706" />
+        <animateTransform attributeName="transform" type="translate" values="0 0; -10 0; 0 0" dur="4.5s" repeatCount="indefinite" />
+      </g>
+    </g>
+
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -9; 0 0" dur="5.8s" begin="-2.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1" />
+  </g>
+</svg>

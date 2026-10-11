@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="1000" height="200">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811" />
+      <stop offset="100%" stop-color="#020408" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="50%" stop-color="#C084FC" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <filter id="fGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 800; }
+    .font-mono { font-family: 'Fira Code', 'Courier New', monospace; }
+  </style>
+
+  <rect width="1000" height="200" fill="url(#footerBg)" />
+
+  <!-- Flowing Floating Ambient Particles -->
+  <circle cx="160" cy="150" r="3.5" fill="#00F0FF">
+    <animate attributeName="cy" values="160;30;160" dur="4.8s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;0" dur="4.8s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="360" cy="150" r="4.5" fill="#A855F7">
+    <animate attributeName="cy" values="160;30;160" dur="5.5s" begin="-1.2s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;0" dur="5.5s" begin="-1.2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="600" cy="150" r="3" fill="#34D399">
+    <animate attributeName="cy" values="160;30;160" dur="6.2s" begin="-2.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;0" dur="6.2s" begin="-2.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="820" cy="150" r="4" fill="#FBBF24">
+    <animate attributeName="cy" values="160;30;160" dur="5.0s" begin="-3.8s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;0" dur="5.0s" begin="-3.8s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Glowing Slogan Title -->
+  <text x="500" y="58" text-anchor="middle" class="font-sans" font-size="28" fill="url(#textGrad)" letter-spacing="2" filter="url(#fGlow)">
+    ✦ LEARN IT. BUILD IT. SHIP IT. ✦
+  </text>
+
+  <text x="500" y="86" text-anchor="middle" class="font-mono" font-size="12" fill="#64748B" letter-spacing="1">
+    MOHAMMED YOUSUF UDDIN • TRANSFORMING IDEAS INTO INTELLIGENCE
+  </text>
+
+  <!-- Multi-Layer Fluid Neon Wave Ribbons -->
+  <!-- Layer 1 (Purple) -->
+  <path d="M-500 135 q125 -24 250 0 t250 0 q125 -24 250 0 t250 0 q125 -24 250 0 t250 0 q125 -24 250 0 t250 0 V200 H-500 Z" fill="#7000FF" opacity="0.35">
+    <animateTransform attributeName="transform" type="translate" from="-500 0" to="0 0" dur="14s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Layer 2 (Cyan) -->
+  <path d="M-500 148 q125 -18 250 0 t250 0 q125 -18 250 0 t250 0 q125 -18 250 0 t250 0 q125 -18 250 0 t250 0 V200 H-500 Z" fill="#00F0FF" opacity="0.45">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="9s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Layer 3 (Deep Blue Base) -->
+  <path d="M-500 165 q125 -12 250 0 t250 0 q125 -12 250 0 t250 0 q125 -12 250 0 t250 0 q125 -12 250 0 t250 0 V200 H-500 Z" fill="#0A1128" opacity="0.95">
+    <animateTransform attributeName="transform" type="translate" from="-500 0" to="0 0" dur="6s" repeatCount="indefinite" />
+  </path>
+</svg>

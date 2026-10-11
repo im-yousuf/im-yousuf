@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 390" width="1000" height="390">
+  <defs>
+    <!-- Dark Glass Background -->
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14" />
+      <stop offset="50%" stop-color="#0d1424" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <!-- Header Gradient -->
+    <linearGradient id="termHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <filter id="neon" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', 'Courier New', monospace; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes lineFade1 { 0%, 5% { opacity: 0; } 12%, 100% { opacity: 1; } }
+    @keyframes lineFade2 { 0%, 15% { opacity: 0; } 22%, 100% { opacity: 1; } }
+    @keyframes lineFade3 { 0%, 25% { opacity: 0; } 32%, 100% { opacity: 1; } }
+    @keyframes lineFade4 { 0%, 35% { opacity: 0; } 42%, 100% { opacity: 1; } }
+    @keyframes lineFade5 { 0%, 45% { opacity: 0; } 52%, 100% { opacity: 1; } }
+    @keyframes lineFade6 { 0%, 55% { opacity: 0; } 62%, 100% { opacity: 1; } }
+    @keyframes lineFade7 { 0%, 65% { opacity: 0; } 72%, 100% { opacity: 1; } }
+    .cursor { animation: blink 1s step-end infinite; }
+  </style>
+
+  <!-- Terminal Window Shell -->
+  <rect x="4" y="4" width="992" height="382" rx="16" fill="url(#termBg)" stroke="#1e293b" stroke-width="2" />
+  
+  <!-- Header Bar -->
+  <path d="M 4 20 Q 4 4 20 4 L 980 4 Q 996 4 996 20 L 996 46 L 4 46 Z" fill="url(#termHeader)" />
+  <line x1="4" y1="46" x2="996" y2="46" stroke="#334155" stroke-width="1" />
+
+  <!-- Mac Window Buttons -->
+  <circle cx="28" cy="25" r="6" fill="#EF4444" />
+  <circle cx="48" cy="25" r="6" fill="#F59E0B" />
+  <circle cx="68" cy="25" r="6" fill="#10B981" />
+
+  <!-- Terminal Title -->
+  <text x="500" y="29" text-anchor="middle" class="mono" font-size="12" font-weight="600" fill="#94A3B8">
+    yousuf@nexus: ~/neural-core (zsh)
+  </text>
+
+  <!-- Command Line Prompt -->
+  <g transform="translate(32, 82)">
+    <text x="0" y="0" class="mono" font-size="14" font-weight="700" fill="#38BDF8">❯</text>
+    <text x="18" y="0" class="mono" font-size="14" font-weight="600" fill="#F1F5F9">python3 -m yousuf.ai --status=online --mode=production</text>
+  </g>
+
+  <!-- Progressive Terminal Output -->
+  <g transform="translate(32, 116)" style="animation: lineFade1 8s ease infinite;">
+    <text x="0" y="0" class="mono" font-size="13" font-weight="700" fill="#10B981">[✓] System Boot:</text>
+    <text x="145" y="0" class="mono" font-size="13" fill="#E2E8F0">Neural Core initialized successfully. Quantum stack active.</text>
+  </g>
+
+  <g transform="translate(32, 146)" style="animation: lineFade2 8s ease infinite;">
+    <text x="0" y="0" class="mono" font-size="13" font-weight="700" fill="#38BDF8">[ℹ] Developer:</text>
+    <text x="145" y="0" class="mono" font-size="13" font-weight="600" fill="#F8FAFC">Mohammed Yousuf Uddin</text>
+    <text x="360" y="0" class="mono" font-size="13" fill="#64748B">// B.Tech Data Science (2024-2028), Sphoorthy Engg</text>
+  </g>
+
+  <g transform="translate(32, 176)" style="animation: lineFade3 8s ease infinite;">
+    <text x="0" y="0" class="mono" font-size="13" font-weight="700" fill="#A855F7">[✦] Leadership:</text>
+    <text x="145" y="0" class="mono" font-size="13" fill="#E2E8F0">Campus Ambassador @ GeeksforGeeks</text>
+    <text x="475" y="0" class="mono" font-size="13" fill="#94A3B8">| Blind Coding Prize Winner</text>
+  </g>
+
+  <g transform="translate(32, 206)" style="animation: lineFade4 8s ease infinite;">
+    <text x="0" y="0" class="mono" font-size="13" font-weight="700" fill="#FBBF24">[⚡] Tech Stack:</text>
+    <text x="145" y="0" class="mono" font-size="13" fill="#E2E8F0">Python • Scikit-Learn • LangChain • FastAPI • AWS • Power BI • PostgreSQL</text>
+  </g>
+
+  <g transform="translate(32, 236)" style="animation: lineFade5 8s ease infinite;">
+    <text x="0" y="0" class="mono" font-size="13" font-weight="700" fill="#EC4899">[🏆] Track Record:</text>
+    <text x="145" y="0" class="mono" font-size="13" fill="#E2E8F0">Smart India Hackathon (2025, 2026) • Blind Coding Winner • AWS AICTE Intern</text>
+  </g>
+
+  <g transform="translate(32, 266)" style="animation: lineFade6 8s ease infinite;">
+    <text x="0" y="0" class="mono" font-size="13" font-weight="700" fill="#06B6D4">[🚀] Current Focus:</text>
+    <text x="145" y="0" class="mono" font-size="13" fill="#E2E8F0">End-to-End Enterprise ML, Real-Time BI Streams, GenAI Agents &amp; Vector Stores</text>
+  </g>
+
+  <!-- Interactive Prompt with Blinking Cursor -->
+  <g transform="translate(32, 302)">
+    <text x="0" y="0" class="mono" font-size="14" font-weight="700" fill="#38BDF8">❯</text>
+    <text x="18" y="0" class="mono" font-size="14" font-weight="600" fill="#34D399">ready_for_collaboration = True</text>
+    <rect x="290" y="-12" width="9" height="15" fill="#38BDF8" class="cursor" filter="url(#neon)" />
+  </g>
+
+  <!-- Bottom Telemetry Status Bar -->
+  <rect x="4" y="348" width="992" height="38" rx="0" fill="#090d1a" stroke="#1e293b" stroke-width="1" />
+  <circle cx="28" cy="367" r="4" fill="#10B981" />
+  <text x="40" y="371" class="mono" font-size="11.5" fill="#94A3B8">STATUS: ONLINE</text>
+  <text x="190" y="371" class="mono" font-size="11.5" fill="#64748B">CPU: 8.04 CGPA</text>
+  <text x="340" y="371" class="mono" font-size="11.5" fill="#64748B">MEMORY: 5000+ TX/MIN STREAM</text>
+  <text x="610" y="371" class="mono" font-size="11.5" fill="#64748B">PORTS: REST / FASTAPI / SQL</text>
+  <text x="860" y="371" class="mono" font-size="11.5" font-weight="700" fill="#38BDF8">ENV: PRODUCTION</text>
+</svg>

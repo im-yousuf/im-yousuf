@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 262" width="500" height="262">
+  <defs>
+    <linearGradient id="cardBgL1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#F1F5F9" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-sans { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; }
+    .font-mono { font-family: 'Fira Code', 'Courier New', monospace; }
+  </style>
+
+  <ellipse cx="250" cy="250" rx="160" ry="7" fill="#000" opacity="0.08">
+    <animate attributeName="rx" values="160;130;160" dur="4.6s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.08;0.04;0.08" dur="4.6s" repeatCount="indefinite" />
+  </ellipse>
+
+  <g>
+    <rect x="10" y="20" width="480" height="210" rx="20" fill="url(#cardBgL1)" stroke="#0284C7" stroke-width="2" />
+
+    <rect x="36" y="44" width="112" height="22" rx="11" fill="#E0F2FE" stroke="#0284C7" stroke-width="1" />
+    <circle cx="48" cy="55" r="4" fill="#0284C7">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+    <text x="58" y="59" class="font-sans" font-size="11" font-weight="700" fill="#0369A1">5k+ TX/MIN EDA</text>
+
+    <text x="36" y="96" class="font-sans" font-size="25" font-weight="900" fill="#0F172A">E-Commerce BI</text>
+
+    <text x="36" y="124" class="font-sans" font-size="13.5" fill="#475569">Real-time telemetry pipeline &amp; live KPI</text>
+    <text x="36" y="144" class="font-sans" font-size="13.5" fill="#475569">anomaly detection dashboards.</text>
+
+    <g transform="translate(36, 172)">
+      <rect x="0" y="0" width="62" height="24" rx="12" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1" />
+      <text x="31" y="16" text-anchor="middle" class="font-mono" font-size="11" font-weight="700" fill="#0284C7">Python</text>
+
+      <rect x="68" y="0" width="76" height="24" rx="12" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1" />
+      <text x="106" y="16" text-anchor="middle" class="font-mono" font-size="11" font-weight="700" fill="#A16207">Power BI</text>
+
+      <rect x="150" y="0" width="68" height="24" rx="12" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1" />
+      <text x="184" y="16" text-anchor="middle" class="font-mono" font-size="11" font-weight="700" fill="#BE123C">Tableau</text>
+
+      <rect x="224" y="0" width="68" height="24" rx="12" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1" />
+      <text x="258" y="16" text-anchor="middle" class="font-mono" font-size="11" font-weight="700" fill="#1D4ED8">Postgres</text>
+    </g>
+
+    <g transform="translate(360, 60)">
+      <line x1="0" y1="90" x2="100" y2="90" stroke="#CBD5E1" stroke-width="1.5" />
+      <line x1="0" y1="50" x2="100" y2="50" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="2 4" />
+      <line x1="0" y1="10" x2="100" y2="10" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="2 4" />
+
+      <rect x="10" y="45" width="14" height="45" rx="3" fill="#38BDF8">
+        <animate attributeName="height" values="45;75;45" dur="3.2s" repeatCount="indefinite" />
+        <animate attributeName="y" values="45;15;45" dur="3.2s" repeatCount="indefinite" />
+      </rect>
+      <rect x="32" y="25" width="14" height="65" rx="3" fill="#A855F7">
+        <animate attributeName="height" values="65;35;65" dur="2.8s" repeatCount="indefinite" />
+        <animate attributeName="y" values="25;55;25" dur="2.8s" repeatCount="indefinite" />
+      </rect>
+      <rect x="54" y="15" width="14" height="75" rx="3" fill="#0284C7">
+        <animate attributeName="height" values="75;50;75" dur="3.6s" repeatCount="indefinite" />
+        <animate attributeName="y" values="15;40;15" dur="3.6s" repeatCount="indefinite" />
+      </rect>
+      <rect x="76" y="35" width="14" height="55" rx="3" fill="#10B981">
+        <animate attributeName="height" values="55;80;55" dur="2.4s" repeatCount="indefinite" />
+        <animate attributeName="y" values="35;10;35" dur="2.4s" repeatCount="indefinite" />
+      </rect>
+
+      <circle cx="61" cy="15" r="4" fill="#0284C7">
+        <animate attributeName="cy" values="15;40;15" dur="3.6s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -9; 0 0" dur="4.6s" begin="-0.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1" />
+  </g>
+</svg>

@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="900" height="480">
+  <defs>
+    <linearGradient id="orbitBgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#F1F5F9" />
+    </linearGradient>
+
+    <filter id="lightBadgeShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 700; }
+    .font-mono { font-family: 'Fira Code', 'Courier New', monospace; }
+  </style>
+
+  <!-- Container Shell -->
+  <rect x="4" y="4" width="892" height="472" rx="28" fill="url(#orbitBgLight)" stroke="#CBD5E1" stroke-width="2" />
+
+  <!-- Orbit Tracks -->
+  <circle cx="450" cy="240" r="105" fill="none" stroke="#93C5FD" stroke-width="1.5" stroke-dasharray="4 8" />
+  <circle cx="450" cy="240" r="160" fill="none" stroke="#C4B5FD" stroke-width="1.5" stroke-dasharray="6 10" />
+  <circle cx="450" cy="240" r="215" fill="none" stroke="#6EE7B7" stroke-width="1.5" stroke-dasharray="8 12" />
+
+  <!-- ================= INNER ORBIT RING (rotates clockwise 24s) ================= -->
+  <g>
+    <!-- Python -->
+    <g transform="rotate(0 450 240)">
+      <g transform="translate(555 240)">
+        <g transform="rotate(0)">
+          <rect x="-38" y="-13" width="76" height="26" rx="13" fill="#FFFFFF" stroke="#0284C7" stroke-width="2" filter="url(#lightBadgeShadow)" />
+          <text y="4.5" text-anchor="middle" class="font-sans" font-size="12" fill="#0284C7">Python</text>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="24s" repeatCount="indefinite" />
+        </g>
+      </g>
+    </g>
+
+    <!-- FastAPI -->
+    <g transform="rotate(90 450 240)">
+      <g transform="translate(555 240)">
+        <g transform="rotate(-90)">
+          <rect x="-38" y="-13" width="76" height="26" rx="13" fill="#FFFFFF" stroke="#059669" stroke-width="2" filter="url(#lightBadgeShadow)" />
+          <text y="4.5" text-anchor="middle" class="font-sans" font-size="12" fill="#059669">FastAPI</text>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="24s" repeatCount="indefinite" />
+        </g>
+      </g>
+    </g>
+
+    <!-- Java -->
+    <g transform="rotate(180 450 240)">
+      <g transform="translate(555 240)">
+        <g transform="rotate(-180)">
+          <rect x="-32" y="-13" width="64" height="26" rx="13" fill="#FFFFFF" stroke="#EA580C" stroke-width="2" filter="url(#lightBadgeShadow)" />
+          <text y="4.5" text-anchor="middle" class="font-sans" font-size="12" fill="#EA580C">Java</text>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="24s" repeatCount="indefinite" />
+        </g>
+      </g>
+    </g>
+
+    <!-- Postgres -->
+    <g transform="rotate(270 450 240)">
+      <g transform="translate(555 240)">
+        <g transform="rotate(-270)">
+          <rect x="-44" y="-13" width="88" height="26" rx="13" fill="#FFFFFF" stroke="#2563EB" stroke-width="2" filter="url(#lightBadgeShadow)" />
+          <text y="4.5" text-anchor="middle" class="font-sans" font-size="11.5" fill="#2563EB">Postgres</text>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="24s" repeatCount="indefinite" />
+        </g>
+      </g>
+    </g>
+    <animateTransform attributeName="transform" type="rotate" from="0 450 240" to="360 450 240" dur="24s" repeatCount="indefinite" />
+  </g>
+
+  <!-- ================= MIDDLE ORBIT RING (rotates counter-clockwise 38s) ================= -->
+  <g>
+    <!-- Scikit-Learn -->
+    <g transform="rotate(0 450 240)">
+      <g transform="translate(610 240)">
+        <g transform="rotate(0)">
+          <rect x="-45" y="-13" width="90" height="26" rx="13" fill="#FFFFFF" stroke="#D97706" stroke-width="2" filter="url(#lightBadgeShadow)" />
+          <text y="4.5" text-anchor="middle" class="font-sans" font-size="11.5" fill="#D97706">Scikit-Learn</text>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="38s" repeatCount="indefinite" />
+        </g>
+      </g>
+    </g>
+
+    <!-- LangChain -->
+    <g transform="rotate(72 450 240)">
+      <g transform="translate(610 240)">
+        <g transform="rotate(-72)">
+          <rect x="-44" y="-13" width="88" height="26" rx="13" fill="#FFFFFF" stroke="#059669" stroke-width="2" filter="url(#lightBadgeShadow)" />
+          <text y="4.5" text-anchor="middle" class="font-sans" font-size="11.5" fill="#059669">LangChain</text>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="38s" repeatCount="indefinite" />
+        </g>
+      </g>
+    </g>
+
+    <!-- Pinecone -->
+    <g transform="rotate(144 450 240)">
+      <g transform="translate(610 240)">
+        <g transform="rotate(-144)">
+          <rect x="-42" y="-13" width="84" height="26" rx="13" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2" filter="url(#lightBadgeShadow)" />
+          <text y="4.5" text-anchor="middle" class="font-sans" font-size="11.5" fill="#7C3AED">Pinecone</text>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="38s" repeatCount="indefinite" />
+        </g>
+      </g>
+    </g>
+
+    <!-- Docker -->
+    <g transform="rotate(216 450 240)">
+      <g transform="translate(610 240)">
+        <g transform="rotate(-216)">
+          <rect x="-36" y="-13" width="72" height="26" rx="13" fill="#FFFFFF" stroke="#0284C7" stroke-width="2" filter="url(#lightBadgeShadow)" />
+          <text y="4.5" text-anchor="middle" class="font-sans" font-size="11.5" fill="#0284C7">Docker</text>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="38s" repeatCount="indefinite" />
+        </g>
+      </g>
+    </g>
+
+    <!-- Git -->
+    <g transform="rotate(288 450 240)">
+      <g transform="translate(610 240)">
+        <g transform="rotate(-288)">
+          <rect x="-32" y="-13" width="64" height="26" rx="13" fill="#FFFFFF" stroke="#DC2626" stroke-width="2" filter="url(#lightBadgeShadow)" />
+          <text y="4.5" text-anchor="middle" class="font-sans" font-size="12" fill="#DC2626">Git</text>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="38s" repeatCount="indefinite" />
+        </g>
+      </g>
+    </g>
+    <animateTransform attributeName="transform" type="rotate" from="360 450 240" to="0 450 240" dur="38s" repeatCount="indefinite" />
+  </g>
+
+  <!-- ================= OUTER ORBIT RING (rotates clockwise 54s) ================= -->
+  <g>
+    <!-- AWS -->
+    <g transform="rotate(0 450 240)">
+      <g transform="translate(665 240)">
+        <g transform="rotate(0)">
+          <rect x="-35" y="-13" width="70" height="26" rx="13" fill="#FFFFFF" stroke="#D97706" stroke-width="2" filter="url(#lightBadgeShadow)" />
+          <text y="4.5" text-anchor="middle" class="font-sans" font-size="12" fill="#D97706">AWS</text>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="54s" repeatCount="indefinite" />
+        </g>
+      </g>
+    </g>
+
+    <!-- Power BI -->
+    <g transform="rotate(60 450 240)">
+      <g transform="translate(665 240)">
+        <g transform="rotate(-60)">
+          <rect x="-42" y="-13" width="84" height="26" rx="13" fill="#FFFFFF" stroke="#CA8A04" stroke-width="2" filter="url(#lightBadgeShadow)" />
+          <text y="4.5" text-anchor="middle" class="font-sans" font-size="11.5" fill="#A16207">Power BI</text>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="54s" repeatCount="indefinite" />
+        </g>
+      </g>
+    </g>
+
+    <!-- Tableau -->
+    <g transform="rotate(120 450 240)">
+      <g transform="translate(665 240)">
+        <g transform="rotate(-120)">
+          <rect x="-40" y="-13" width="80" height="26" rx="13" fill="#FFFFFF" stroke="#E11D48" stroke-width="2" filter="url(#lightBadgeShadow)" />
+          <text y="4.5" text-anchor="middle" class="font-sans" font-size="11.5" fill="#E11D48">Tableau</text>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="54s" repeatCount="indefinite" />
+        </g>
+      </g>
+    </g>
+
+    <!-- Supabase -->
+    <g transform="rotate(180 450 240)">
+      <g transform="translate(665 240)">
+        <g transform="rotate(-180)">
+          <rect x="-44" y="-13" width="88" height="26" rx="13" fill="#FFFFFF" stroke="#059669" stroke-width="2" filter="url(#lightBadgeShadow)" />
+          <text y="4.5" text-anchor="middle" class="font-sans" font-size="11.5" fill="#059669">Supabase</text>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="54s" repeatCount="indefinite" />
+        </g>
+      </g>
+    </g>
+
+    <!-- React -->
+    <g transform="rotate(240 450 240)">
+      <g transform="translate(665 240)">
+        <g transform="rotate(-240)">
+          <rect x="-35" y="-13" width="70" height="26" rx="13" fill="#FFFFFF" stroke="#0284C7" stroke-width="2" filter="url(#lightBadgeShadow)" />
+          <text y="4.5" text-anchor="middle" class="font-sans" font-size="12" fill="#0284C7">React</text>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="54s" repeatCount="indefinite" />
+        </g>
+      </g>
+    </g>
+
+    <!-- Next.js -->
+    <g transform="rotate(300 450 240)">
+      <g transform="translate(665 240)">
+        <g transform="rotate(-300)">
+          <rect x="-38" y="-13" width="76" height="26" rx="13" fill="#FFFFFF" stroke="#0F172A" stroke-width="2" filter="url(#lightBadgeShadow)" />
+          <text y="4.5" text-anchor="middle" class="font-sans" font-size="12" fill="#0F172A">Next.js</text>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="54s" repeatCount="indefinite" />
+        </g>
+      </g>
+    </g>
+    <animateTransform attributeName="transform" type="rotate" from="0 450 240" to="360 450 240" dur="54s" repeatCount="indefinite" />
+  </g>
+
+  <!-- ================= CENTRAL CORE ================= -->
+  <g transform="translate(450, 240)">
+    <circle cx="0" cy="0" r="42" fill="#EFF6FF" stroke="#2563EB" stroke-width="3">
+      <animate attributeName="r" values="40;45;40" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#7C3AED" stroke-width="1.5" stroke-dasharray="6 6">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite" />
+    </circle>
+    <text y="-5" text-anchor="middle" class="font-sans" font-size="11" font-weight="800" fill="#1E293B" letter-spacing="1">TECH</text>
+    <text y="12" text-anchor="middle" class="font-sans" font-size="12" font-weight="900" fill="#2563EB" letter-spacing="1">REACTOR</text>
+  </g>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="1000" height="200">
+  <defs>
+    <linearGradient id="footerBgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F1F5F9" />
+    </linearGradient>
+
+    <linearGradient id="textGradLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1D4ED8" />
+      <stop offset="50%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-sans { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 800; }
+    .font-mono { font-family: 'Fira Code', 'Courier New', monospace; }
+  </style>
+
+  <rect width="1000" height="200" fill="url(#footerBgLight)" />
+
+  <circle cx="160" cy="150" r="3.5" fill="#2563EB">
+    <animate attributeName="cy" values="160;30;160" dur="4.8s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;0" dur="4.8s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="360" cy="150" r="4.5" fill="#7C3AED">
+    <animate attributeName="cy" values="160;30;160" dur="5.5s" begin="-1.2s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;0" dur="5.5s" begin="-1.2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="600" cy="150" r="3" fill="#059669">
+    <animate attributeName="cy" values="160;30;160" dur="6.2s" begin="-2.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;0" dur="6.2s" begin="-2.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="820" cy="150" r="4" fill="#D97706">
+    <animate attributeName="cy" values="160;30;160" dur="5.0s" begin="-3.8s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;0" dur="5.0s" begin="-3.8s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Glowing Slogan Title -->
+  <text x="500" y="58" text-anchor="middle" class="font-sans" font-size="28" fill="url(#textGradLight)" letter-spacing="2">
+    ✦ LEARN IT. BUILD IT. SHIP IT. ✦
+  </text>
+
+  <text x="500" y="86" text-anchor="middle" class="font-mono" font-size="12" fill="#64748B" letter-spacing="1">
+    MOHAMMED YOUSUF UDDIN • TRANSFORMING IDEAS INTO INTELLIGENCE
+  </text>
+
+  <!-- Multi-Layer Fluid Wave Ribbons -->
+  <path d="M-500 135 q125 -24 250 0 t250 0 q125 -24 250 0 t250 0 q125 -24 250 0 t250 0 q125 -24 250 0 t250 0 V200 H-500 Z" fill="#7C3AED" opacity="0.15">
+    <animateTransform attributeName="transform" type="translate" from="-500 0" to="0 0" dur="14s" repeatCount="indefinite" />
+  </path>
+
+  <path d="M-500 148 q125 -18 250 0 t250 0 q125 -18 250 0 t250 0 q125 -18 250 0 t250 0 q125 -18 250 0 t250 0 V200 H-500 Z" fill="#2563EB" opacity="0.25">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="9s" repeatCount="indefinite" />
+  </path>
+
+  <path d="M-500 165 q125 -12 250 0 t250 0 q125 -12 250 0 t250 0 q125 -12 250 0 t250 0 q125 -12 250 0 t250 0 V200 H-500 Z" fill="#E2E8F0" opacity="0.95">
+    <animateTransform attributeName="transform" type="translate" from="-500 0" to="0 0" dur="6s" repeatCount="indefinite" />
+  </path>
+</svg>

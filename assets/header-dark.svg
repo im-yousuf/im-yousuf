@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060913" />
+      <stop offset="50%" stop-color="#0b1124" />
+      <stop offset="100%" stop-color="#04060d" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="cyberCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="100%" stop-color="#7000FF" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#C084FC" />
+    </linearGradient>
+
+    <linearGradient id="radarBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00F0FF" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Neon Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="cyberGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.8" stroke-opacity="0.4" />
+      <circle cx="40" cy="40" r="1" fill="#38BDF8" opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.8; filter: drop-shadow(0 0 10px #00F0FF); }
+      50% { opacity: 0.4; filter: drop-shadow(0 0 3px #7000FF); }
+    }
+    @keyframes floatParticle {
+      0%, 100% { transform: translateY(0px) scale(1); }
+      50% { transform: translateY(-12px) scale(1.15); }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(-50px); opacity: 0; }
+      10% { opacity: 0.7; }
+      90% { opacity: 0.7; }
+      100% { transform: translateY(370px); opacity: 0; }
+    }
+    .neon-title {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-weight: 900;
+      letter-spacing: 2px;
+      fill: url(#accentGrad);
+      filter: drop-shadow(0 0 12px rgba(56, 189, 248, 0.45));
+    }
+    .mono-text {
+      font-family: 'Fira Code', 'Courier New', monospace;
+    }
+  </style>
+
+  <!-- Base Card -->
+  <rect x="4" y="4" width="992" height="352" rx="24" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="2" />
+  <rect x="4" y="4" width="992" height="352" rx="24" fill="url(#cyberGrid)" />
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="850" cy="180" r="160" fill="#7000FF" opacity="0.12" filter="url(#softGlow)" />
+  <circle cx="150" cy="80" r="120" fill="#00F0FF" opacity="0.08" filter="url(#softGlow)" />
+
+  <!-- Scanning Laser Line -->
+  <line x1="20" y1="0" x2="980" y2="0" stroke="url(#radarBeam)" stroke-width="2" style="animation: scanline 8s linear infinite;" />
+
+  <!-- Rotating 3D Cyber Particle Ring (Right Side) -->
+  <g transform="translate(810, 180)">
+    <!-- Concentric Dash Rings -->
+    <circle cx="0" cy="0" r="110" fill="none" stroke="#38BDF8" stroke-width="1.2" stroke-dasharray="6 8" opacity="0.35">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="0" r="85" fill="none" stroke="#C084FC" stroke-width="1.5" stroke-dasharray="12 12" opacity="0.4">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="28s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#00F0FF" stroke-width="1.2" stroke-dasharray="4 6" opacity="0.5">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Pulsing Center Core -->
+    <circle cx="0" cy="0" r="28" fill="#0B1329" stroke="#00F0FF" stroke-width="2.5" filter="url(#glow)">
+      <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <polygon points="0,-14 12,0 0,14 -12,0" fill="#00F0FF" opacity="0.9">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite" />
+    </polygon>
+
+    <!-- Planetary Orbiting Particles -->
+    <g>
+      <circle cx="110" cy="0" r="4.5" fill="#00F0FF" filter="url(#glow)" />
+      <circle cx="-110" cy="0" r="3.5" fill="#38BDF8" />
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite" />
+    </g>
+    <g>
+      <circle cx="0" cy="85" r="5" fill="#A855F7" filter="url(#glow)" />
+      <circle cx="0" cy="-85" r="3.5" fill="#C084FC" />
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="12s" repeatCount="indefinite" />
+    </g>
+    <g>
+      <circle cx="42" cy="42" r="4" fill="#34D399" filter="url(#glow)" />
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite" />
+    </g>
+  </g>
+
+  <!-- Left Side Cyber Header Content -->
+  <!-- Status Badge Pill -->
+  <g transform="translate(56, 52)">
+    <rect x="0" y="0" width="230" height="30" rx="15" fill="#0f172a" stroke="#00F0FF" stroke-width="1.2" stroke-opacity="0.6" />
+    <!-- Blinking Online Status Dot -->
+    <circle cx="16" cy="15" r="5" fill="#10B981" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite" />
+    </circle>
+    <text x="30" y="19" font-family="'Fira Code', monospace" font-size="11.5" font-weight="700" fill="#38BDF8" letter-spacing="1">SYSTEM: ACTIVE // 2026</text>
+  </g>
+
+  <!-- Main Animated Name Title -->
+  <text x="54" y="132" font-size="44" class="neon-title">MOHAMMED YOUSUF UDDIN</text>
+
+  <!-- Dynamic Role Line with Gradient Accents -->
+  <text x="56" y="172" font-family="'Segoe UI', sans-serif" font-size="19" font-weight="600" fill="#E2E8F0" letter-spacing="0.5">
+    Data Science Undergraduate <tspan fill="#38BDF8">|</tspan> Machine Learning <tspan fill="#A855F7">|</tspan> AI &amp; Cloud Architect
+  </text>
+
+  <!-- Punchy Mission Subtitle -->
+  <text x="56" y="208" font-family="'Segoe UI', sans-serif" font-size="14.5" fill="#94A3B8">
+    Crafting scalable ML pipelines, Generative AI applications &amp; high-performance data systems.
+  </text>
+
+  <!-- HUD Telemetry Pills -->
+  <g transform="translate(56, 246)">
+    <!-- Pill 1: Education -->
+    <g>
+      <rect x="0" y="0" width="186" height="34" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1.2" />
+      <text x="14" y="21" class="mono-text" font-size="11.5" font-weight="600" fill="#38BDF8">🎓 B.Tech CSE (DS)</text>
+    </g>
+
+    <!-- Pill 2: Leadership -->
+    <g transform="translate(196, 0)">
+      <rect x="0" y="0" width="198" height="34" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1.2" />
+      <text x="14" y="21" class="mono-text" font-size="11.5" font-weight="600" fill="#34D399">🚀 GfG Ambassador</text>
+    </g>
+
+    <!-- Pill 3: Achievement -->
+    <g transform="translate(404, 0)">
+      <rect x="0" y="0" width="184" height="34" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1.2" />
+      <text x="14" y="21" class="mono-text" font-size="11.5" font-weight="600" fill="#C084FC">🏆 Blind Coding Win</text>
+    </g>
+
+    <!-- Pill 4: Cloud -->
+    <g transform="translate(598, 0)">
+      <rect x="0" y="0" width="168" height="34" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1.2" />
+      <text x="14" y="21" class="mono-text" font-size="11.5" font-weight="600" fill="#FBBF24">☁️ AWS Certified</text>
+    </g>
+  </g>
+
+  <!-- Corner Tech Coordinates -->
+  <text x="56" y="324" class="mono-text" font-size="11" fill="#475569">LAT: 17.3850° N, LON: 78.4867° E [HYDERABAD, IN]</text>
+  <text x="944" y="324" text-anchor="end" class="mono-text" font-size="11" fill="#475569">STATUS: 100% OPERATIONAL // REPO: IM-YOUSUF</text>
+</svg>

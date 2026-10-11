@@ -1,7 +1,11 @@
 <div align="center">
 
-<!-- CYBER NEON HEADER BANNER -->
-<img src="assets/header-cyber.svg" width="100%" alt="Mohammed Yousuf Uddin - Cyber Header" />
+<!-- DYNAMIC THEME-ADAPTIVE HEADER BANNER -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+  <img src="assets/header-dark.svg" width="100%" alt="Mohammed Yousuf Uddin - Header" />
+</picture>
 
 <br/>
 
@@ -45,7 +49,11 @@
 ## 💻 Terminal Session
 
 <div align="center">
-  <img src="assets/terminal.svg" width="100%" alt="Cyber Terminal Session" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/terminal-light.svg">
+    <img src="assets/terminal-dark.svg" width="100%" alt="Cyber Terminal Session" />
+  </picture>
 </div>
 
 ---
@@ -57,7 +65,11 @@
 </p>
 
 <div align="center">
-  <img src="assets/about-cyber.svg" width="100%" alt="Who's Floating Around Me" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/about-light.svg">
+    <img src="assets/about-dark.svg" width="100%" alt="Who's Floating Around Me" />
+  </picture>
 </div>
 
 ---
@@ -68,24 +80,40 @@
   <tr>
     <td align="center" width="50%">
       <a href="https://github.com/im-yousuf?tab=repositories">
-        <img src="assets/card-ecommerce.svg" alt="E-Commerce BI Dashboards" width="100%" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-ecommerce-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-ecommerce-light.svg">
+          <img src="assets/card-ecommerce-dark.svg" alt="E-Commerce BI Dashboards" width="100%" />
+        </picture>
       </a>
     </td>
     <td align="center" width="50%">
       <a href="https://cyberarena-1.vercel.app" target="_blank">
-        <img src="assets/card-cyberarena-cyber.svg" alt="Cyber-Arena Platform" width="100%" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-cyberarena-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-cyberarena-light.svg">
+          <img src="assets/card-cyberarena-dark.svg" alt="Cyber-Arena Platform" width="100%" />
+        </picture>
       </a>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
       <a href="https://github.com/im-yousuf?tab=repositories">
-        <img src="assets/card-mandisetu-cyber.svg" alt="MandiSetu SIH 2026" width="100%" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-mandisetu-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-mandisetu-light.svg">
+          <img src="assets/card-mandisetu-dark.svg" alt="MandiSetu SIH 2026" width="100%" />
+        </picture>
       </a>
     </td>
     <td align="center" width="50%">
       <a href="https://github.com/im-yousuf?tab=repositories">
-        <img src="assets/card-slms-cyber.svg" alt="Library Core System" width="100%" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-slms-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-slms-light.svg">
+          <img src="assets/card-slms-dark.svg" alt="Library Core System" width="100%" />
+        </picture>
       </a>
     </td>
   </tr>
@@ -100,7 +128,11 @@
 </p>
 
 <div align="center">
-  <img src="assets/orbit-cyber.svg" width="100%" alt="Gravitational Tech Reactor" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/orbit-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/orbit-light.svg">
+    <img src="assets/orbit-dark.svg" width="100%" alt="Gravitational Tech Reactor" />
+  </picture>
 </div>
 
 <br/>
@@ -151,17 +183,29 @@
   <table border="0">
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=im-yousuf&show_icons=true&locale=en&theme=tokyonight&hide_border=true&bg_color=060913&title_color=00F0FF&icon_color=C084FC&text_color=94A3B8" alt="GitHub Stats" height="175"/>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=im-yousuf&show_icons=true&locale=en&theme=tokyonight&hide_border=true&bg_color=060913&title_color=00F0FF&icon_color=C084FC&text_color=94A3B8">
+          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=im-yousuf&show_icons=true&locale=en&theme=default&hide_border=true&bg_color=FFFFFF&title_color=2563EB&icon_color=7C3AED&text_color=334155">
+          <img src="https://github-readme-stats.vercel.app/api?username=im-yousuf&show_icons=true&locale=en&theme=tokyonight&hide_border=true&bg_color=060913&title_color=00F0FF&icon_color=C084FC&text_color=94A3B8" alt="GitHub Stats" height="175"/>
+        </picture>
       </td>
       <td>
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=im-yousuf&theme=tokyonight&hide_border=true&background=060913&ring=00F0FF&fire=F43F5E&currStreakLabel=00F0FF" alt="GitHub Streak" height="175"/>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=im-yousuf&theme=tokyonight&hide_border=true&background=060913&ring=00F0FF&fire=F43F5E&currStreakLabel=00F0FF">
+          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=im-yousuf&theme=default&hide_border=true&background=FFFFFF&ring=2563EB&fire=EF4444&currStreakLabel=2563EB">
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=im-yousuf&theme=tokyonight&hide_border=true&background=060913&ring=00F0FF&fire=F43F5E&currStreakLabel=00F0FF" alt="GitHub Streak" height="175"/>
+        </picture>
       </td>
     </tr>
   </table>
 
   <br/>
 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=im-yousuf&layout=compact&theme=tokyonight&hide_border=true&bg_color=060913&title_color=00F0FF&text_color=94A3B8" alt="Top Languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=im-yousuf&layout=compact&theme=tokyonight&hide_border=true&bg_color=060913&title_color=00F0FF&text_color=94A3B8">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=im-yousuf&layout=compact&theme=default&hide_border=true&bg_color=FFFFFF&title_color=2563EB&text_color=334155">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=im-yousuf&layout=compact&theme=tokyonight&hide_border=true&bg_color=060913&title_color=00F0FF&text_color=94A3B8" alt="Top Languages" />
+  </picture>
 </div>
 
 ---
@@ -169,7 +213,11 @@
 ## 🐍 Contribution Stream
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/im-yousuf/im-yousuf/output/github-contribution-grid-snake-dark.svg" alt="Snake Contribution Graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/im-yousuf/im-yousuf/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/im-yousuf/im-yousuf/output/github-contribution-grid-snake.svg">
+    <img src="https://raw.githubusercontent.com/im-yousuf/im-yousuf/output/github-contribution-grid-snake-dark.svg" alt="Snake Contribution Graph" />
+  </picture>
 </div>
 
 <p align="center">
@@ -199,12 +247,20 @@ Whether you're looking to build an AI/ML application, collaborate on an open-sou
 <br/><br/>
 
 <!-- DYNAMIC DEV QUOTE -->
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dynamic Dev Quote" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight">
+  <source media="(prefers-color-scheme: light)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=default">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dynamic Dev Quote" />
+</picture>
 
 <br/><br/>
 
-<!-- ANIMATED CYBER FOOTER -->
-<img src="assets/footer-cyber.svg" width="100%" alt="Cyberpunk Wave Footer" />
+<!-- DYNAMIC THEME-ADAPTIVE FOOTER -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg">
+  <img src="assets/footer-dark.svg" width="100%" alt="Cyberpunk Wave Footer" />
+</picture>
 
 <p align="center">
   <i>⚡ Engineered with passion, precision &amp; pixels by <b>Mohammed Yousuf Uddin</b> ⚡</i>
